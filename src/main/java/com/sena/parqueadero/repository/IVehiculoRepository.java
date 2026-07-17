@@ -20,5 +20,4 @@ public interface IVehiculoRepository extends JpaRepository<Vehiculo, Long> {
 	@Query("SELECT v FROM Vehiculo v Where v.placa = : placa")
 	Optional<Vehiculo> findByPlacaForUpdate(String placa);
 
-	
 }
