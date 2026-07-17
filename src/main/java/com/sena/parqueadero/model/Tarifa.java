@@ -20,7 +20,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Entity
-@Table(name = "vehiculos ")
+@Table(name = "tarifas ")
 public class Tarifa {
 
 	@Id
@@ -33,5 +33,5 @@ public class Tarifa {
 	private double tarifaPorHora;
 	@Column(nullable = false)
 	private double tarifaPorDia;
-	
+
 }
